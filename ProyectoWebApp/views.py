@@ -5,7 +5,7 @@ from carro.carro import Carro
 
 
 def Home(request):
-    carro=Carro(request)
+    #carro=Carro(request)
     return render(request, "ProyectoWebApp/Home.html")
 
 
